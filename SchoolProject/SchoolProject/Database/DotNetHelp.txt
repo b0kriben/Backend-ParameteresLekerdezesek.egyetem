@@ -1,0 +1,43 @@
+//Sqlite
+
+dotnet ef dbcontext scaffold "Data Source=Database\DATABASE.db" Microsoft.EntityFrameworkCore.Sqlite -o Models
+dotnet ef dbcontext scaffold "Data Source=Database\DATABASE.db" Microsoft.EntityFrameworkCore.Sqlite -o Models -f
+
+//MySQL
+
+dotnet ef dbcontext scaffold "Server=localhost;Database=DATABASE;User=root;Password=;" Pomelo.EntityFrameworkCore.MySql -o Models
+dotnet ef dbcontext scaffold "Server=localhost;Database=DATABASE;User=root;Password=;" Pomelo.EntityFrameworkCore.MySql -o Models -f
+
+// Szükséges csomagok
+// Backend
+<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.12" />
+<PackageReference Include="SQLitePCLRaw.core" Version="2.1.10" />
+<PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.10" />
+<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12"/>
+
+// dotnet-ef telepítése
+1,
+dotnet restore
+2.
+dotnet new tool-manifest
+dotnet new tool-manifest --force
+3.
+Kell nuget.org pipa (nuget csomagok letöltésére)
+4.
+dotnet tool install dotnet-ef
+5.
+dotnet tool uninstall dotnet-ef
+6.
+dotnet-ef
+vagy
+dotnet dotnet-ef
+
+vagy
+dotnet tool install --local dotnet-ef --version 8.*
+dotnet dotnet-ef
+
+dotnet tool install --global dotnet-ef
+dotnet tool install --local dotnet-ef
+
+

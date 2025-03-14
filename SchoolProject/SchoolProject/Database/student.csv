@@ -1,0 +1,21 @@
+ID,Name,Age,Email,DepartmentID,Enrolled 
+1,Kovács Péter,21,peter.kovacs@example.com,1,1
+2,Nagy Anna,22,anna.nagy@example.com,2,1
+3,Tóth Gábor,20,gabor.toth@example.com,3,0
+4,Hegedűs László,23,laszlo.hegedus@example.com,4,1
+5,Szabó Katalin,22,katalin.szabo@example.com,5,1
+6,Oláh Ferenc,24,ferenc.olah@example.com,1,1
+7,Kiss Márta,21,marta.kiss@example.com,2,1
+8,Molnár Dániel,22,daniel.molnar@example.com,3,1
+9,Lakatos István,20,istvan.lakatos@example.com,4,1
+10,Farkas Zsuzsanna,23,zsuzsanna.farkas@example.com,5,0
+11,Németh Gergely,21,gergely.nemeth@example.com,1,1
+12,Balogh Edit,22,edit.balogh@example.com,2,1
+13,Varga Sándor,20,sandor.varga@example.com,3,1
+14,Veres Andrea,23,andrea.veres@example.com,4,1
+15,Pintér Attila,22,attila.pinter@example.com,5,0
+16,Lukács Gábor,24,gabor.lukacs@example.com,1,1
+17,Horváth István,21,istvan.horvath@example.com,2,1
+18,Kovács Dóra,22,dora.kovacs@example.com,3,1
+19,Kiss Roland,20,roland.kiss@example.com,4,1
+20,Székely Tamás,23,tamas.szekely@example.com,5,1
