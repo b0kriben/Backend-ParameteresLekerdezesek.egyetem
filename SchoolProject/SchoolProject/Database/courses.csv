@@ -1,0 +1,21 @@
+ID,Name,Credits,DepartmentID,TeacherID
+1,Programozás alapjai,6,1,1
+2,Adatbázis-kezelés,5,2,2
+3,Webfejlesztés,4,3,3
+4,Gépitanulás,6,4,4
+5,Mesterséges intelligencia,5,5,5
+6,Operációs rendszerek,6,1,6
+7,Szoftverfejlesztés,5,2,7
+8,Hálózatbiztonság,4,3,8
+9,Big Data,6,4,9
+10,Cloud Computing,5,5,10
+11,Robotika,6,1,11
+12,Adatstruktúrák,5,2,12
+13,Algoritmusok,4,3,13
+14,IoT technológiák,6,4,14
+15,IT projektmenedzsment,5,5,15
+16,Cybersecurity,6,1,16
+17,Blockchain technológia,5,2,17
+18,Szoftvertervezés,4,3,18
+19,Mobilfejlesztés,6,4,19
+20,Game Development,5,5,20
